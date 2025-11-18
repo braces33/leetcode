@@ -12,7 +12,7 @@ public class money {
             money = (hour - 60) * 120 * 1.25f + 60 * 120; 
         }
         else if (hour > 80){
-            money = ((hour - 60) * 120 * 1.5f) + (60 * 120); 
+            money = ((hour - 80) * 120 * 1.5f) + 20*120*1.25f + (60 * 120); 
         } else {
              money = 0.0f;
         }
